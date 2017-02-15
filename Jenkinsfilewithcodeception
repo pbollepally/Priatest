@@ -1,0 +1,6 @@
+node {
+   echo 'Hello World'
+   composer install
+   ./vendor/bin/codecept run acceptance --steps
+}
+
